@@ -1,0 +1,63 @@
+
+
+{
+    "general_details":[
+     {
+         "No": "#001",
+         "Name": "Mimit",
+         "Type": "Digital"
+     },
+     { 
+      "No.": "#002",
+      "Name": "Oree",
+      "Type": "Digital",
+      "Evolves to": "Zaobian"
+     },
+     {
+      "No.": "#003",
+      "Name": "Zaobian",
+      "Type": "Digital",
+      "Evolves from": "Oree"
+     },
+     {
+      "No.": "#004",
+      "Name": "Chromeon",
+      "Type": "Digital"
+  },
+  {
+    "No.": "#005",
+    "Name": "Halzhi",
+    "Type": "Digital",
+    "Evolves to": "Molgu"    
+  },
+  {
+    "No.": "#006",
+    "Name": "Molgu",
+    "Type": "Digital",
+    "Evolves from": "Halzhi" 
+}
+    ]
+    
+  
+}
+  
+  
+ 
+  
+ 
+
+
+      
+     
+    
+    
+
+
+
+
+
+
+
+
+ 
+ 

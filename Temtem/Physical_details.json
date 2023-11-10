@@ -1,0 +1,43 @@
+{
+    "physical_details":[
+         {
+             "Height": "42cm/16.54",
+             "Weight": "42kg/92.61lbs"
+         },
+         {
+            "physical_details":
+                    {
+                        "Height": "128cm/50.39",
+                        "Weight": "43kg/94.82lbs"
+                    }
+          },
+          {
+            "physical_details":
+            {
+               "Height": "213cm/83.86",
+               "Weight": "93kg/205.07lbs"
+            }
+          },
+          {
+            "physical_details":
+                     {
+                         "Height": "77cm/30.31",
+                         "Weight": "36kg/79.38lbs"
+                     }
+          },
+          {
+            "physical_details":
+            {
+                "Height": "90cm/35.43",
+                "Weight": "95kg/209.48lbs"
+            }
+          },
+          {
+            "physical_details":
+            {
+                "Height": "170cm/66.93",
+                "Weight": "36kg/79.38lbs"
+            }
+          }
+        ]
+  }

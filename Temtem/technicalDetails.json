@@ -1,0 +1,49 @@
+{
+    "technicalDetails":[
+          {
+            "Gender_Ratio": "N/A",
+            "Catch": "39",
+            "Traits": "Zen"
+          },
+          {
+            "technicalDetails":
+            {
+                "Gender Ratio": "Male 25%, Female 75%",
+                "Catch": "145",
+                "Traits": "Fast Charge"
+            }
+          },
+          {
+            "technicalDetails":
+            {
+               "Gender Ratio": "Male 25%, Female 75%",
+               "Catch": "105",
+               "Traits": "Voltaic Charge" 
+            }
+          },
+          {
+            "technicalDetails":
+            {
+              "Gender Ratio": "Male 50%, Female 50%",
+              "Catch": "80",
+              "Traits": "Pigment Inverter"
+            }
+          },
+          {
+            "technicalDetails":
+            {
+              "Gender Ratio": "Male 5%, Female 95%",
+              "Catch": "125",
+              "Traits": "Parrier"
+            }
+          },
+          {
+            "technicalDetails":
+            {
+              "Gender Ratio": "Male 5%, Female 95%",
+              "Catch": "105",
+              "Traits": "Splitter"
+            }
+          }
+         ]
+   }
