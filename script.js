@@ -39,8 +39,7 @@ function generalDetails() {
          } else {
           // If somthing wrong with the json file it getting a error in the console
           console.error("Invalid JSON structure or data not found");
-         }
-         
+         }  
         })
         
        
