@@ -6,7 +6,7 @@ const boredCard = document.querySelector(".bored_card");
 
 
 
-// Fetches the data from the url and displays it in the browser
+// Fetches the data from a Json file and displays it in the browser
 function generalDetails() {
   fetch("./Temtem/General_details.json")
        .then((response) => response.json())
@@ -19,6 +19,7 @@ function generalDetails() {
          newTemtem.innerText = firstTemtem.No;
          boredCard.appendChild(newTemtem);
          } else {
+          // If somthing wrong with the json file it getting a error in the console
           console.error("Invalid JSON structure or data not found");
          }
          if (data && data.general_details && data.general_details.length > 0) {
@@ -27,6 +28,7 @@ function generalDetails() {
          newTemtem.innerText = firstTemtem.Name;
          boredCard.appendChild(newTemtem);
          } else {
+          // If somthing wrong with the json file it getting a error in the console
           console.error("Invalid JSON structure or data not found");
          }
          if (data && data.general_details && data.general_details.length > 0) {
@@ -35,6 +37,7 @@ function generalDetails() {
          newTemtem.innerText = firstTemtem.Type;
          boredCard.appendChild(newTemtem);
          } else {
+          // If somthing wrong with the json file it getting a error in the console
           console.error("Invalid JSON structure or data not found");
          }
         })
@@ -45,6 +48,7 @@ function generalDetails() {
 
 }
 
+// Fetches the data from a Json file and displays it in the browser
 function technicalDetails() {
   fetch("./Temtem/technicalDetails.json")
        .then((response) => response.json())
@@ -57,6 +61,7 @@ function technicalDetails() {
          newTemtem.innerText = firstTemtem.Gender_Ratio;
          boredCard.appendChild(newTemtem);
          } else {
+          // If somthing wrong with the json file it getting a error in the console
           console.error("Invalid JSON structure or data not found");
          }
          if (data && data.technicalDetails && data.technicalDetails.length > 0) {
@@ -65,6 +70,7 @@ function technicalDetails() {
          newTemtem.innerText = firstTemtem.Catch;
          boredCard.appendChild(newTemtem);
          } else {
+          // If somthing wrong with the json file it getting a error in the console
           console.error("Invalid JSON structure or data not found");
          }
          if (data && data.technicalDetails && data.technicalDetails.length > 0) {
@@ -73,6 +79,7 @@ function technicalDetails() {
          newTemtem.innerText = firstTemtem.Traits;
          boredCard.appendChild(newTemtem);
          } else {
+          // If somthing wrong with the json file it getting a error in the console
           console.error("Invalid JSON structure or data not found");
          }
         })
@@ -83,6 +90,7 @@ function technicalDetails() {
 
 }
 
+// Fetches the data from a Json file and displays it in the browser
 function physicalDetails() {
   fetch("./Temtem/Physical_details.json")
        .then((response) => response.json())
@@ -95,6 +103,7 @@ function physicalDetails() {
          newTemtem.innerText = firstTemtem.Height;
          boredCard.appendChild(newTemtem);
          } else {
+          // If somthing wrong with the json file it getting a error in the console
           console.error("Invalid JSON structure or data not found");
          }
          if (data && data.physical_details && data.physical_details.length > 0) {
@@ -103,6 +112,7 @@ function physicalDetails() {
          newTemtem.innerText = firstTemtem.Weight;
          boredCard.appendChild(newTemtem);
          } else {
+          // If somthing wrong with the json file it getting a error in the console
           console.error("Invalid JSON structure or data not found");
          }
         
@@ -114,6 +124,7 @@ function physicalDetails() {
 
 }
 
+// Fetches the data from a Json file and displays it in the browser
 function catchingDetails() {
   fetch("./Temtem/Catching_details.json")
        .then((response) => response.json())
@@ -126,6 +137,7 @@ function catchingDetails() {
          newTemtem.innerText = firstTemtem.Locations;
          boredCard.appendChild(newTemtem);
          } else {
+          // If somthing wrong with the json file it getting a error in the console
           console.error("Invalid JSON structure or data not found");
          }
          
