@@ -13,8 +13,8 @@ function generalDetails() {
        .then((data) => {
         boredCard.innerHTML = "";
          console.log(data)
-         if (data && data.general_details && data.general_details.length > 1) {
-          const firstTemtem = data.general_details[1];
+         if (data && data.general_details && data.general_details.length > 0) {
+          const firstTemtem = data.general_details[0];
           const newTemtem = document.createElement("p");
          newTemtem.innerText = firstTemtem.No;
          boredCard.appendChild(newTemtem);
@@ -22,8 +22,8 @@ function generalDetails() {
           // If somthing wrong with the json file it getting a error in the console
           console.error("Invalid JSON structure or data not found");
          }
-         if (data && data.general_details && data.general_details.length > 1) {
-          const firstTemtem = data.general_details[1];
+         if (data && data.general_details && data.general_details.length > 0) {
+          const firstTemtem = data.general_details[0];
           const newTemtem = document.createElement("p");
          newTemtem.innerText = firstTemtem.Name;
          boredCard.appendChild(newTemtem);
