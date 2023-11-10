@@ -8,30 +8,30 @@
          "Type": "Digital"
      },
      { 
-      "No.": "#002",
+      "No": "#002",
       "Name": "Oree",
       "Type": "Digital",
       "Evolves to": "Zaobian"
      },
      {
-      "No.": "#003",
+      "No": "#003",
       "Name": "Zaobian",
       "Type": "Digital",
       "Evolves from": "Oree"
      },
      {
-      "No.": "#004",
+      "No": "#004",
       "Name": "Chromeon",
       "Type": "Digital"
   },
   {
-    "No.": "#005",
+    "No": "#005",
     "Name": "Halzhi",
     "Type": "Digital",
     "Evolves to": "Molgu"    
   },
   {
-    "No.": "#006",
+    "No": "#006",
     "Name": "Molgu",
     "Type": "Digital",
     "Evolves from": "Halzhi" 
