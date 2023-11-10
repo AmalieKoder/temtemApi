@@ -11,13 +11,13 @@
       "No": "#002",
       "Name": "Oree",
       "Type": "Digital",
-      "Evolves to": "Zaobian"
+      "EvolvesTo": "Zaobian"
      },
      {
       "No": "#003",
       "Name": "Zaobian",
       "Type": "Digital",
-      "Evolves from": "Oree"
+      "EvolvesFrom": "Oree"
      },
      {
       "No": "#004",
@@ -28,13 +28,13 @@
     "No": "#005",
     "Name": "Halzhi",
     "Type": "Digital",
-    "Evolves to": "Molgu"    
+    "EvolvesTo": "Molgu"    
   },
   {
     "No": "#006",
     "Name": "Molgu",
     "Type": "Digital",
-    "Evolves from": "Halzhi" 
+    "EvolvesFrom": "Halzhi" 
 }
     ]
     
