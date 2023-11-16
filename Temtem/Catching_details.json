@@ -4,35 +4,19 @@
        "Locations": "Iwaba"
     },
     {
-        "catchin_details":
-        {
-            "Locations": "Rice field, Pillars of Highabove"
-        }
-      },
-      {
-        "catchin_details":
-                 {
-                     "Locations": "Evolution"
-                 }
-      },
-      {
-        "catchin_details":
-        {
-            "Locations": "Pillars of Highabove"
-        }
-      },
-      {
-        "catchin_details":
-                 {
-                     "Locations": "Rice field"
-                 }
-      },
-      {
-        "catchin_details":
-                 {
-                     "Locations": "Pillars of Highabove"
-                 }
-             
-      }
+     "Locations": "Rice field, Pillars of Highabove"
+    },
+    {
+      "Locations": "Evolution"
+    },
+    {
+      "Locations": "Pillars of Highabove"
+    },
+    {
+      "Locations": "Rice field"
+    },
+    {
+      "Locations": "Pillars of Highabove"
+    }
 ]
   }
