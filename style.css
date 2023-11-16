@@ -39,3 +39,10 @@ button {
     background: linear-gradient(#386641, #6a994e, #a7c957, #f2e8cf, #bc4749);
     font-size: 18px;
 }
+
+.gitHub {
+    color: #e0eff2;
+    font: italic bold Georgia, Serif;
+    text-shadow: -4px 3px 0 #3a50d9, -14px 7px 0 #0a0e27;
+    color: #e0eff2;
+}
